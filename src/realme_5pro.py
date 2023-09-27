@@ -8,12 +8,13 @@ def find_element_with_retry():
         captcha_find(driver, 'realme5')
 
 
-app_json["udid"] = "d150b8b8"
-driver = webdriver.Remote("http://localhost:4727/wd/hub", app_json)
+app_json["udid"] = "NJ5PAMHU4HZHNJQ4"
+driver = webdriver.Remote("http://localhost:4723/wd/hub", app_json)
 
 driver.implicitly_wait(15)
 
-entry(driver, 990, 287)
+# entry(driver, 990, 287)
+entry(driver, 657, 167)
 find_element_with_retry()
 
 
